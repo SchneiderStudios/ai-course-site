@@ -4,118 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ИИ для жизни – Schneider Studios Education</title>
+  <title>ИИ в жизни — просто и понятно</title>
   <link rel="icon" type="image/png" href="favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f4f7fc; color: #1f2937; }
+    body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f9fafb; color: #1f2937; }
     header, footer { background: #2563eb; color: white; padding: 20px; text-align: center; }
-    main { padding: 20px; background: white; max-width: 1000px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+    main { padding: 20px; max-width: 1000px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
     h1, h2, h3 { color: #111827; }
     .section { margin-bottom: 40px; }
-    .cta { background: #10b981; color: white; padding: 15px 20px; text-align: center; display: inline-block; border-radius: 8px; text-decoration: none; font-size: 18px; margin-top: 10px; }
-    .faq { background: #e5e7eb; padding: 15px; border-radius: 8px; margin: 10px 0; }
-    .features, .audience { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
-    .feature, .audience-card { background: #f9fafb; padding: 15px; border-radius: 8px; border: 1px solid #d1d5db; }
-    .contact-links a { display: inline-block; margin: 10px; padding: 10px 16px; background: #3b82f6; color: white; text-decoration: none; border-radius: 6px; }
-    blockquote { font-style: italic; border-left: 4px solid #3b82f6; padding-left: 10px; color: #374151; }
-    .logo img { height: 60px; margin-bottom: 10px; }
+    .audience, .modules { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #eff6ff; padding: 15px; border-radius: 8px; border: 1px solid #dbeafe; }
+    .cta { background: #10b981; color: white; padding: 15px 20px; text-align: center; border-radius: 8px; text-decoration: none; display: inline-block; margin: 10px 0; }
+    .contact-links a { margin-right: 15px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    table, th, td { border: 1px solid #d1d5db; }
+    th, td { padding: 10px; text-align: left; }
+    th { background: #f3f4f6; }
     @media (max-width: 600px) {
-      main { padding: 10px; }
-      .features, .audience { grid-template-columns: 1fr; }
-      h1 { font-size: 1.5em; }
+      .audience, .modules { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="logo.png" alt="Schneider Studios Education logo">
-    </div>
-    <h1>Schneider Studios Education</h1>
-    <p>Образование для цифрового будущего</p>
+    <h1>ИИ в жизни — просто и понятно</h1>
+    <p>Практический курс для русскоязычных взрослых в Германии</p>
   </header>
   <main>
     <section class="section">
-      <h1>Искусственный интеллект для повседневной жизни</h1>
-      <p>Практический мини-курс для русскоговорящих взрослых в Германии. Изучите ИИ без технических сложностей и используйте его каждый день.</p>
-      <ul>
-        <li>📅 3 вебинара по 60 минут</li>
-        <li>👤 Для начинающих</li>
-        <li>🌐 На русском языке</li>
-      </ul>
-      <div class="contact-links">
-        <a href="https://t.me/SchneiderStudios">Записаться через Telegram</a>
-        <a href="mailto:info@schneiderstudios.de">Запись через почту</a>
+      <h2>Для кого этот курс</h2>
+      <div class="audience">
+        <div class="card"><strong>📌 Новички</strong><br>Без технических знаний</div>
+        <div class="card"><strong>🧩 Люди 35+</strong><br>Живущие в Германии</div>
+        <div class="card"><strong>🔍 Практичные люди</strong><br>Ценящие время и пользу</div>
       </div>
     </section>
 
-    <section class="section features">
-      <div class="feature">
-        <h3>ChatGPT для повседневных задач</h3>
-        <p>Письма, планирование, помощь в учёбе и работе</p>
-      </div>
-      <div class="feature">
-        <h3>Создание изображений с ИИ</h3>
-        <p>Картинки для соцсетей и проектов</p>
-      </div>
-      <div class="feature">
-        <h3>ИИ-переводчики и языки</h3>
-        <p>Переводы и изучение языков</p>
-      </div>
-      <div class="feature">
-        <h3>ИИ в работе</h3>
-        <p>Автоматизация, продуктивность</p>
-      </div>
-      <div class="feature">
-        <h3>Безопасность и этика</h3>
-        <p>Как защитить себя и данные</p>
-      </div>
+    <section class="section">
+      <h2>Программа курса</h2>
+      <table>
+        <thead>
+          <tr><th>Модуль</th><th>Тема</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Что такое ChatGPT и зачем он нужен</td></tr>
+          <tr><td>2</td><td>Как задавать вопросы, чтобы ИИ давал полезные ответы</td></tr>
+          <tr><td>3</td><td>Повседневные задачи с ИИ: письма, банкинг, помощь</td></tr>
+          <tr><td>4</td><td>ИИ как редактор, переводчик и писатель</td></tr>
+          <tr><td>5</td><td>Генерация картинок, видео и голосов</td></tr>
+          <tr><td>6</td><td>Ограничения и безопасность</td></tr>
+          <tr><td>7</td><td>Кейсы: как применять ИИ в своей работе</td></tr>
+          <tr><td>8</td><td>Как продолжать обучение и улучшать навыки</td></tr>
+        </tbody>
+      </table>
     </section>
 
     <section class="section">
       <h2>Как проходит обучение</h2>
       <ul>
-        <li>💻 Онлайн-вебинары в Zoom: 3 занятия с живым общением</li>
-        <li>📄 PDF-руководства с практическими заданиями</li>
-        <li>💬 Поддержка и чат в Telegram</li>
+        <li>💻 Zoom-вебинары: 3 онлайн встречи</li>
+        <li>📄 PDF-материалы с примерами и задачами</li>
+        <li>💬 Поддержка и обсуждение в Telegram-чате</li>
       </ul>
     </section>
 
     <section class="section">
-      <h2>О создателе</h2>
-      <p><strong>Илья Шнайдер</strong> – основатель Schneider Studios Education. Более 10 лет в IT и образовании. Обучил 500+ взрослых цифровым навыкам.</p>
-      <ul>
-        <li>🎓 Специалист по внедрению ИИ в повседневную жизнь</li>
-        <li>📈 Помог адаптироваться к цифровой среде</li>
-      </ul>
-      <blockquote>“Моя цель – показать, что ИИ помогает, а не заменяет. Каждый может использовать его с умом.”</blockquote>
-    </section>
-
-    <section class="section audience">
-      <div class="audience-card">
-        <h3>Русскоязычные взрослые в Германии</h3>
-        <p>Которые хотят идти в ногу со временем</p>
+      <h2>Записаться</h2>
+      <div class="contact-links">
+        <a class="cta" href="https://t.me/SchneiderStudios">📲 Telegram</a>
+        <a class="cta" href="mailto:info@schneiderstudios.de">📧 Email</a>
       </div>
-      <div class="audience-card">
-        <h3>Начинающие без IT-знаний</h3>
-        <p>Никакого технического опыта не требуется</p>
-      </div>
-      <div class="audience-card">
-        <h3>Практичные люди</h3>
-        <p>Которые ценят время и хотят реальную пользу</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Часто задаваемые вопросы</h2>
-      <div class="faq"><strong>Нужны ли знания в IT?</strong><br>Нет, курс для новичков.</div>
-      <div class="faq"><strong>Что если я пропущу занятие?</strong><br>Будет запись.</div>
-      <div class="faq"><strong>Сколько времени занимает курс?</strong><br>Около 2–3 часов суммарно.</div>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 Schneider Studios Education — info@schneiderstudios.de</p>
+    <p>&copy; 2025 Schneider Studios Education</p>
   </footer>
 </body>
 </html>
